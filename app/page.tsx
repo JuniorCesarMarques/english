@@ -1,86 +1,76 @@
-import React from 'react';
+import React from "react";
 
-const EnglishCourseLevels = () => {
+export default function EnglishCourse() {
   return (
-    <div className="max-w-4xl mx-auto px-4 py-8">
-      <h1 className="text-3xl font-bold mb-6">Grade de Curso de Inglês (A0 ao C1)</h1>
+    <main className="max-w-4xl mx-auto p-6 text-gray-800">
+      <h1 className="text-3xl font-bold mb-6">Curso de Inglês – Do Zero ao Avançado</h1>
 
-      <div className="space-y-8">
-        <section>
-          <h2 className="text-xl font-semibold">A0 – Iniciante Absoluto</h2>
-          <ul className="list-disc list-inside">
-            <li>Alfabeto</li>
-            <li>Saudações básicas (Hello, Goodbye...)</li>
-            <li>Pronomes pessoais (I, you, he...)</li>
-            <li>Números (1-100)</li>
-            <li>Verbo "to be"</li>
-            <li>Cores, dias da semana, meses</li>
-            <li>Frases simples (What's your name? Where are you from?)</li>
-          </ul>
-        </section>
+      <section className="mb-8">
+        <h2 className="text-2xl font-semibold mb-2">A0 – Totalmente Iniciante</h2>
+        <p className="mb-2">Indicado para quem nunca teve contato com o inglês.</p>
+        <ul className="list-disc list-inside">
+          <li>Alfabeto e pronúncia</li>
+          <li>Saudações e apresentações básicas</li>
+          <li>Pronomes pessoais</li>
+          <li>Verbo “to be” no presente</li>
+          <li>Números, cores, dias da semana</li>
+        </ul>
+      </section>
 
-        <section>
-          <h2 className="text-xl font-semibold">A1 – Iniciante</h2>
-          <ul className="list-disc list-inside">
-            <li>Presente simples</li>
-            <li>Vocabulário do cotidiano (família, casa, escola)</li>
-            <li>Preposições básicas (in, on, at...)</li>
-            <li>Artigos definidos e indefinidos</li>
-            <li>Frases afirmativas, negativas e interrogativas</li>
-            <li>Conversas simples</li>
-          </ul>
-        </section>
+      <section className="mb-8">
+        <h2 className="text-2xl font-semibold mb-2">A1 – Iniciante</h2>
+        <p className="mb-2">Começa a se comunicar em situações cotidianas simples.</p>
+        <ul className="list-disc list-inside">
+          <li>Frases simples e perguntas básicas</li>
+          <li>Vocabulário de casa, família, rotina</li>
+          <li>Presente simples (simple present)</li>
+          <li>Preposições básicas</li>
+        </ul>
+      </section>
 
-        <section>
-          <h2 className="text-xl font-semibold">A2 – Básico</h2>
-          <ul className="list-disc list-inside">
-            <li>Verbos modais (can, must...)</li>
-            <li>There is / There are</li>
-            <li>Passado simples (regular e irregular)</li>
-            <li>Quantificadores (some, any, much, many)</li>
-            <li>Comparativos e superlativos</li>
-            <li>Diálogos em situações práticas (restaurante, compras...)</li>
-          </ul>
-        </section>
+      <section className="mb-8">
+        <h2 className="text-2xl font-semibold mb-2">A2 – Básico</h2>
+        <p className="mb-2">Consegue lidar com tarefas rotineiras e compreender frases comuns.</p>
+        <ul className="list-disc list-inside">
+          <li>Passado simples (simple past)</li>
+          <li>Pronomes possessivos</li>
+          <li>Vocabulário de trabalho, transporte, alimentação</li>
+          <li>Expressões de tempo e frequência</li>
+        </ul>
+      </section>
 
-        <section>
-          <h2 className="text-xl font-semibold">B1 – Intermediário</h2>
-          <ul className="list-disc list-inside">
-            <li>Present perfect</li>
-            <li>Past continuous</li>
-            <li>Condicional tipo 1</li>
-            <li>Reported speech</li>
-            <li>Vocabulário mais específico (trabalho, viagens...)</li>
-            <li>Produção de textos simples</li>
-          </ul>
-        </section>
+      <section className="mb-8">
+        <h2 className="text-2xl font-semibold mb-2">B1 – Intermediário</h2>
+        <p className="mb-2">Já compreende textos e consegue manter conversas mais elaboradas.</p>
+        <ul className="list-disc list-inside">
+          <li>Present perfect</li>
+          <li>Comparativos e superlativos</li>
+          <li>Condicional tipo 1</li>
+          <li>Vocabulário mais amplo (viagens, saúde, educação)</li>
+        </ul>
+      </section>
 
-        <section>
-          <h2 className="text-xl font-semibold">B2 – Intermediário Avançado</h2>
-          <ul className="list-disc list-inside">
-            <li>Condicional tipo 2</li>
-            <li>Discurso indireto (avançado)</li>
-            <li>Uso de phrasal verbs</li>
-            <li>Vocabulário formal e informal</li>
-            <li>Leitura e interpretação de textos mais complexos</li>
-            <li>Debates e apresentações</li>
-          </ul>
-        </section>
+      <section className="mb-8">
+        <h2 className="text-2xl font-semibold mb-2">B2 – Intermediário-Avançado</h2>
+        <p className="mb-2">Compreende textos complexos e se expressa com mais fluência.</p>
+        <ul className="list-disc list-inside">
+          <li>Reported speech</li>
+          <li>Condicional tipo 2 e 3</li>
+          <li>Passive voice</li>
+          <li>Vocabulário técnico e acadêmico</li>
+        </ul>
+      </section>
 
-        <section>
-          <h2 className="text-xl font-semibold">C1 – Avançado</h2>
-          <ul className="list-disc list-inside">
-            <li>Condicional tipo 3</li>
-            <li>Mixed conditionals</li>
-            <li>Dissertações e redações</li>
-            <li>Inglês acadêmico e profissional</li>
-            <li>Entendimento de filmes, séries e podcasts nativos</li>
-            <li>Fluência em conversas com nativos</li>
-          </ul>
-        </section>
-      </div>
-    </div>
+      <section className="mb-8">
+        <h2 className="text-2xl font-semibold mb-2">C1 – Avançado</h2>
+        <p className="mb-2">Comunicador fluente, com vocabulário rico e estrutura gramatical consolidada.</p>
+        <ul className="list-disc list-inside">
+          <li>Idioms e phrasal verbs</li>
+          <li>Inglês para negócios</li>
+          <li>Escrita formal e acadêmica</li>
+          <li>Debates e argumentação</li>
+        </ul>
+      </section>
+    </main>
   );
-};
-
-export default EnglishCourseLevels;
+}
